@@ -81,5 +81,5 @@ def main():
     else:
         print('Quitting !!!!!!!!!' if quit else display_board())
 
-
-main()
+if __name__ == '__main__':
+    main()
